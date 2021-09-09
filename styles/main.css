@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 
 
 .navbar {
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family: 'Source Sans Pro', sans-serif;
     background: rgb(0,173,181);
     background: linear-gradient(120deg, rgba(0,173,181,1) 26%, rgba(39,187,194,1) 51%, rgba(159,230,233,1) 100%);
     color: #EEEEEE;
@@ -15,10 +13,11 @@
     color: #EEEEEE;
     border-radius: 0px;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .background {
-    font-family: 'Source Sans Pro', sans-serif;
     background-color: #222831;
     color: #EEEEEE;
 }
@@ -37,5 +36,26 @@
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 5px;
+}
+
+.shadow {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+p {
+    font-family: 'Garamond', serif;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+a {
+    outline: 0;
 }
