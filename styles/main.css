@@ -21,7 +21,7 @@ img {
     margin-bottom: 20px;
 }
 
-/* Bootstrap or custom classes */
+/* Bootstrap overrides or custom classes */
 
 .navbar {
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -83,8 +83,17 @@ img {
     font-weight: 500;
 }
 
+.blog-h2 {
+    font-weight: 700;
+}
+
 .code {
     background-color:rgba(255, 255, 255, 0.5)
 }
 
+#left-column {
+    border-right-style: solid;
+    border-right-color: #222831;
+    border-right-width: 1px;
+}
 
