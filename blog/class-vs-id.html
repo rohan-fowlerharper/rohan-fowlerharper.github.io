@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Class and ID in CSS/HTML</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top shadow">
+    <a class="navbar-brand" href="#"><b>roh-dev_blog</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item hover-line">
+                <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">RECENT BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./template.html">BLOG TEMPLATE</a>
+            </li>    
+        </ul>
+    </div>  
+</nav>
+
+<div class="container">
+    <div class="col-sm-12" style="padding-left: 0">
+        <h2><b>A Differentiation Between Class and ID in CSS/HTML</b></h2>
+        <h5>10/09/2021</h5>
+        <p>The Class and ID tags are attribute modifiers to specify the CSS styling of select element(s) in HTML. They are very frequently used and can <i>technically</i> be used interchangeably. However, there is a distinct best-practice in which to use these correctly.</p>
+        <h4 class="blog-h4">Class</h4>
+        <p>The class attribute can be used to specify the styling elements for one or more HTML elements. Rather than applying styling elements to each item, I can create a Class in CSS and apply that class to each element in HTML.</p>
+        <h5 class="blog-h5">Syntax:</h5>
+        <p>The class must be set in the opening – or first – tag in HTML and defined with a preceding “.” in CSS.</p>
+        <img class="shadow" src="./images/class-syntax.PNG" alt="Class Syntax Code Snippet">
+        <br>
+        <h5 class="blog-h5">Example:</h5>
+        <p>Say I wanted to add a box shadow to each div element I had, rather than specifying the styling element in each HTML &lt;div&gt; tag, I can specify a Class labelled ‘shadow’ – or whatever your heart desires, within reason – in CSS and apply it to each div tag I want.</p>
+        <p>I am using this method on this page to change the font-weight of the navbar items to 600 and add a hover animation to highlight the text. You can find this by opening the DOM and inspecting those items.</p>
+        <h4 class="blog-h4">ID</h4>
+        <p>ID, or name, works very much the same as class, however, it is best practice to use this to modify unique class elements, i.e., a single element.</p>
+        <h5 class="blog-h5">Syntax:</h5>
+        <p>The name is set in the opening tag in HTML of the element you wish to style and defined with a preceding “#” in CSS.</p>
+        <img class="shadow" src="./images/id-syntax.PNG" alt="ID Syntax Code Snippet">
+        <h5 class="blog-h5">Example:</h5>
+        <p>If I wanted to modify the h2 heading of this document to be justified to the center of the page, I can create an ID attribute in CSS to do so.</p>
+        <p>This would look like so in CSS:</p>
+        <img class="shadow" src="./images/unique_heading.PNG" alt="Unique Heading Code Snippet">
+        <p><b>Challenge:</b> in the DOM, add the above id attribute to the styling and apply it to the any of the hx tags in HTML. Now see if you can change the font to something fancy and the font-weight to something absurd.</p>
+    </div>
+</div>
+
+</body>
+</html>
