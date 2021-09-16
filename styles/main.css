@@ -25,7 +25,7 @@ img {
 
 .navbar {
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    background: rgb(0,173,181);
+    background: hsl(183, 100%, 35%);
     background: linear-gradient(120deg, rgba(0,173,181,1) 26%, rgba(39,187,194,1) 51%, rgba(159,230,233,1) 100%);
     color: #EEEEEE;
 }
