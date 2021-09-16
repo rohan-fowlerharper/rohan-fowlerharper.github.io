@@ -29,13 +29,18 @@
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
                             <a href="#blog" class="nav__link">
                                 <i class="uil uil-book-open nav__icon"></i> Blog
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
+                            <a href="#modals" class="nav__link">
+                                <i class="uil uil-layers nav__icon"></i> Modals
                             </a>
                         </li>
                         <!-- <li class="nav__item">
@@ -43,11 +48,7 @@
                                 <i class="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
-                            </a>
-                        </li>
+                        
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">
                                 <i class="uil uil-message nav__icon"></i> Contact
@@ -143,7 +144,11 @@
                             </div>
                             <div>
                                 <span class="about__info-title">3</span>
-                                <span class="about__info-name">Sprints <br> completed</span>
+                                <span class="about__info-name">Foundations sprints <br> completed</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">0</span>
+                                <span class="about__info-name">Bootcamp sprints <br> completed</span>
                             </div>
                         </div>
 
@@ -161,7 +166,7 @@
                 <h2 class="section__title">Recent Blogs</h2>
                 <span class="section__subtitle">Have a quick read of my latest progress!</span>
                 <div class="blog__buttons">
-                    <a href="../blog/class-vs-id.html" class="button button--flex blog__button">
+                    <a href="../index.html" class="button button--flex blog__button">
                         All blogs
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -172,7 +177,7 @@
                 <div class="blog__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== blog 1====================-->
-                        <div class="blog__content grid swiper-slide">
+                        <div class="blog__content grid swiper-slide" href="#">
                             <img src="assets/img/blog1.jpg" alt="" class="blog__img">
 
                             <div class="blog__data">
@@ -443,46 +448,46 @@
                 </div>
             </section> -->
 
-            <!--==================== SERVICES ====================-->
-            <!-- <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What I offer</span>
+            <!--==================== MODALS ====================-->
+            <section class="modals section" id="modals">
+                <h2 class="section__title">Modals</h2>
+                <span class="section__subtitle">This is a test section for using modals</span>
 
-                <div class="services__container container grid">
+                <div class="modals__container container grid">
 
-                    <div class="services__content">
+                    <div class="modals__content">
                         <div>
-                            <i class="uil uil-web-grid services__icon"></i>
-                            <h3 class="services__title">UI/UX <br> Designer</h3>
+                            <i class="uil uil-linux modals__icon"></i>
+                            <h3 class="modals__title">Modal 1 <br> Example</h3>
                         </div>
 
 
-                        <span class="button button--flex button--small button--link services__button">
+                        <span class="button button--flex button--small button--link modals__button">
                             View More
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
 
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">UI/UX <br> Designer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
+                        <div class="modals__modal">
+                            <div class="modals__modal-content">
+                                <h4 class="modals__modal-title">Modal 1 <br> Example</h4>
+                                <i class="uil uil-times modals__modal-close"></i>
 
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I develop the user interface</p>
+                                <ul class="modals__modal-modals grid">
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 1</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Web page development</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 2</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I create UX elements</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 3</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I position your company brand</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 4</p>
                                     </li>
                                 </ul>
                             </div>
@@ -490,39 +495,39 @@
                     </div>
 
 
-                    <div class="services__content">
+                    <div class="modals__content">
                         <div>
-                            <i class="uil uil-arrow services__icon"></i>
-                            <h3 class="services__title">Frontend <br> Developer</h3>
+                            <i class="uil uil-slack-alt modals__icon"></i>
+                            <h3 class="modals__title">Modal 2 <br> Example</h3>
                         </div>
 
 
-                        <span class="button button--flex button--small button--link services__button">
+                        <span class="button button--flex button--small button--link modals__button">
                             View More
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
 
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Frontend <br> Developer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
+                        <div class="modals__modal">
+                            <div class="modals__modal-content">
+                                <h4 class="modals__modal-title">Modal 2 <br> Example</h4>
+                                <i class="uil uil-times modals__modal-close"></i>
 
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I develop the user interface</p>
+                                <ul class="modals__modal-modals grid">
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 1</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Web page development</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 2</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I create UX elements</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 3</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I position your company brand</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 4</p>
                                     </li>
                                 </ul>
                             </div>
@@ -530,39 +535,39 @@
                     </div>
 
 
-                    <div class="services__content">
+                    <div class="modals__content">
                         <div>
-                            <i class="uil uil-pen services__icon"></i>
-                            <h3 class="services__title">Branding <br> Designer</h3>
+                            <i class="uil uil-snapchat-alt modals__icon"></i>
+                            <h3 class="modals__title">Modal 3 <br> Example</h3>
                         </div>
 
 
-                        <span class="button button--flex button--small button--link services__button">
+                        <span class="button button--flex button--small button--link modals__button">
                             View More
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
 
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Branding <br> Designer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
+                        <div class="modals__modal">
+                            <div class="modals__modal-content">
+                                <h4 class="modals__modal-title">Modal 3 <br> Example</h4>
+                                <i class="uil uil-times modals__modal-close"></i>
 
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I develop the user interface</p>
+                                <ul class="modals__modal-modals grid">
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> Web page development</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 2</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I create UX elements</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 3</p>
                                     </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p> I position your company brand</p>
+                                    <li class="modals__modal-modal">
+                                        <i class="uil uil-check-circle modals__modal-icon"></i>
+                                        <p> Item 4</p>
                                     </li>
                                 </ul>
                             </div>
@@ -570,7 +575,7 @@
                     </div>
                 </div>
 
-            </section> -->
+            </section>
 
             <!--==================== PROJECT IN MIND ====================-->
             <!-- <section class="project section">
