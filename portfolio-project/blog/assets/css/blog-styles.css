@@ -97,10 +97,6 @@ body.dark-theme {
     color: var(--text-color);
 }
 
-.back__button {
-    
-}
-
 .back__icon {
     display: block;
     position: relative;
